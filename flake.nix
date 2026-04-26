@@ -3,7 +3,7 @@
 
   outputs = { self }: {
 
-    templates.cpp_simple = {
+    templates.cpp-template = {
       path = ./cpp-template;
       description = "A simplified c++ project template";
       welcomeText = ''
@@ -11,6 +11,6 @@
       '';
     };
 
-    templates.default = self.templates.cpp_simple;
+    templates.default = self.templates.cpp-template;
   };
 }
