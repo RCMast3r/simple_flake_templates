@@ -4,7 +4,7 @@
   outputs = { self }: {
 
     templates.cpp_simple = {
-      path = ./cpp_simple;
+      path = ./cpp-template;
       description = "A simplified c++ project template";
       welcomeText = ''
         # yo
